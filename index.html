@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Soso spotify</title>
+    <link rel = "icon" href = "./images/spotify.png" type = "image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B&family=REM:ital,wght@0,400;1,200&family=Rubik&display=swap');
+      </style>
+</head>
+<body>
+    <div class="om">
+        <div class="side">
+            <div class="first">
+                <div class="spotify">
+                    <div class="image">
+                        <img src="./images/spotifyPage.png" alt="home icon">
+                    </div>
+                    <div class="textS">
+                        <p style="font-weight: bold; margin-top: 13px;">Spotify<p>
+                    </div>
+                </div>
+                <div class="home">
+                    <div class="image">
+                        <img src="./images/home.png" alt="home icon">
+                    </div>
+                    <div class="text">
+                        <p style="font-weight: bold; margin-top: 13px;">Home</p>
+                    </div>
+                </div>
+                <div class="search">
+                    <div class="image">
+                        <img src="./images/search.png" alt="home icon">
+                    </div>
+                    <div class="text">
+                        <p style="margin-top: 13px;">Search</p>
+                    </div>
+                </div>
+            </div>
+            <!-- -------------------------------------------------------------------------------------------------------------------- -->
+            <div class="second">
+                <div class="libraryKbera">
+                    <div class="libraryso8ira">
+                        <div class="image">
+                            <img src="./images/library.png" alt="home icon">
+                        </div>
+                        <div class="text">
+                            <p style="margin-top: 13px;">Your Library</p>
+                        </div>
+                    </div>
+                    <div class="plus">
+                        <button onclick="myFunction()" class="plusButton" data-hover="Create playlist or folder">+</button>
+                    </div>
+                    <div id="libscroll">
+                        <div id="scrolldiv1">
+                            <h5>Create your first playlist</h5>
+                            <h6>It's easy,we'll help you</h6>
+                            <button class="scrollbtn">Create playlist</button>
+                        </div>
+                        <div id="scrolldiv2">
+                            <h5>Let's find some bodcasts to follow</h5>
+                            <h6>We'll keep you updated on new eposides</h6>
+                            <button class="scrollbtn">Browse podcasts</button>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <a href="https://www.spotify.com/eg-en/legal/end-user-agreement/">Legal</a>
+                        <a href="https://www.spotify.com/eg-en/privacy">Privacy Center</a>
+                        <a href="https://www.spotify.com/eg-en/legal/privacy-policy/">Privacy Policy</a>
+                        <a href="https://www.spotify.com/eg-en/legal/cookies-policy/">Cookies</a>
+                        <a href="https://www.spotify.com/eg-en/legal/privacy-policy/#s3">About Ads</a>
+                        <a href="https://www.spotify.com/eg-en/accessibility">Accessibility</a>
+                        <a href="https://www.spotify.com/eg-en/legal/cookies-policy/">Cookies</a>
+                    </div>
+                </div>
+                <button class="langbtn"><i class="fa fa-globe" style="color: #ffffff;"></i> English</button>
+            </div>
+        </div>
+
+<!-- el 7eta el yemen------------------------------------------------------------------------------------------------- -->
+
+        <div class="main">
+            <nav class="navbar">
+                <div class="arrows">
+                    <button  class="leftArrow" ><p>&lt;</p> </button>
+                    <button  class="rightArrow" ><p> &gt;</p> </button>
+                </div>
+                <div class="register">
+                    <button  class="signup" ><p>Sign up</p> </button>
+                    <button  class="Login" ><p>Log in</p> </button>  
+                </div>
+                <div class="palylistKbera">
+                    <div class="spotify-playlist1">
+                        <div class="heading">
+                            <h2>Spotify Playlists</h2>
+                            <a href="https://open.spotify.com/section/0JQ5DAuChZYPe9iDhh2mJz">Show all</a>
+                        </div>
+                        <div class="cards-container">
+                          <!-- js here   -->
+                        </div>
+                    </div>
+                    <div class="spotify-playlist2">
+                        <div class="heading">
+                            <h2>Focus</h2>
+                            <a href="https://open.spotify.com/section/0JQ5DAob0JCuWaGLU6ntFY">Show all</a>
+                        </div>
+                        <div class="cards-container2">
+                          <!-- js here   -->
+                        </div>
+                    </div>
+                    <div class="info-container">
+                        <div class="list">
+                            <h4>Company</h4>
+                            <ul>
+                                <li><a href="https://www.spotify.com/eg-en/about-us/contact/">About</a></li>
+                                <br>
+                                <li><a href="https://www.lifeatspotify.com/">Jobs</a></li>
+                                <br>
+                                <li><a href="https://newsroom.spotify.com/">For the Record</a></li>
+                                <br>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h4>Communities</h4>
+                            <ul>
+                                <li><a href="https://www.spotify.com/eg-en/about-us/contact/">For Artists</a></li>
+                                <br>
+                                <li><a href="https://www.lifeatspotify.com/">Developers</a></li>
+                                <br>
+                                <li><a href="https://newsroom.spotify.com/">Advertising</a></li>
+                                <br>
+                                <li><a href="https://newsroom.spotify.com/">Investors</a></li>
+                                <br>
+                                <li><a href="https://newsroom.spotify.com/">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="list">
+                            <h4>Useful links</h4>
+                            <ul>
+                                <li><a href="https://www.spotify.com/eg-en/about-us/contact/">Support</a></li>
+                                <br>
+                                <li><a href="https://www.lifeatspotify.com/">Free Mobile App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="credit">
+                        <hr>
+                        <p class="credits">©Saloma 2023 Spotify AB</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="preview">
+        <div class="textt">
+          <h6>Preview of Spotify</h6>
+          <p>Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+        </div>
+        <div class="button">
+          <button type="button">Sign up free</button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+    <div id="myDIV">
+        <div class="createPlaylist">
+            <div class="image">
+                <img src="./images/CreatePlaylist.png" alt="home icon">
+            </div>
+            <div class="text">
+                <p style="margin-top: 13px;">Create a new playlist</p>
+            </div>
+        </div>
+        <div class="createFolder">
+            <div class="image">
+                <img src="./images/createFolder.png" alt="home icon">
+            </div>
+            <div class="text">
+                <p style="margin-top: 13px;">Create a playlist folder</p>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/23cecef777.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
